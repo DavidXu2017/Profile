@@ -70,5 +70,5 @@ a {
 }
 
 .topNavBar nav ul>li>a:hover{
-    border-bottom: 3px solid red;
+    border-bottom-color: #DC6465;
 }
