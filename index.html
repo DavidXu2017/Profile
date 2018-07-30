@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Guangyu Xu Personal Website</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 </head>
 <body>
-  <div class="topNavBar">
-    <img src="#" alt="Logo">
+  <div class="topNavBar clearfix">
+    <a href="#" class="logo" alt="logo"><span class="rs">RS</span><span class="card">card</span></a>
     <nav>
-      <ul>
+      <ul class="clearfix">
         <li><a href="#">ABOUT</a></li>
         <li><a href="#">KILLS</a></li>
         <li><a href="#">PORTFOLIO</a></li>
@@ -23,42 +25,70 @@
       </ul>
     </nav>
   </div>
-  <div class="banner" style="background-image: url(#)"></div>
+  <div class="banner"></div>
   <main>
     <div class="card">
-      <div class="photo">
-        <img src="#" alt="profile">
-      </div>
-      <div class="text">
-        <div class="profile">
-          <span class="welcome">HELLO</span>
-          <h1>Guangyu Xu</h1>
-          <p>Software Engineer</p>
-          <hr>
-          <dl>
-            <dt>AGE</dt>
-            <dd>32</dd>
-            <dt>ADDRESS</dt>
-            <dd>...</dd>
-            <dt>E-MAIL</dt>
-            <dd>davidxu198556@gmail.com</dd>
-            <dt>PHONE</dt>
-            <dd>+1 646-641-1017</dd>
-          </dl>
+      <div class="pictureAndText">
+        <div class="picture">
+          <img src="#" alt="头像">
         </div>
-        <footer class="media">
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-          <a href="#"><img src="#" alt="..."></a>
-        </footer>
+        <div class="text">
+          <div class="profile">
+            <span class="welcome">HELLO</span>
+            <h1>Guangyu Xu</h1>
+            <p>Software Engineer</p>
+            <hr>
+            <dl>
+              <dt>AGE</dt>
+              <dd>32</dd>
+              <dt>ADDRESS</dt>
+              <dd>...</dd>
+              <dt>E-MAIL</dt>
+              <dd>davidxu198556@gmail.com</dd>
+              <dt>PHONE</dt>
+              <dd>+1 646-641-1017</dd>
+            </dl>
+          </div>
+        </div>
       </div>
+      <footer class="media">
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+        <a href="#"><img src="#" alt="..."></a>
+      </footer>
     </div>
     <a href="#">DOWNLOAD RESUME</a>
     <p>self introduction</p>
   </main>
+  <section>
+    <h2>Professional Skills</h2>
+    <ol>
+      <li>HTML&amp;CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Redux</li>
+      <li>Node</li>
+      <li>Express</li>
+    </ol>
+  </section>
+  <section>
+    <h2>Profolio</h2>
+    <nav>
+      <ol>
+        <li>All</li>
+        <li>Framework</li>
+        <li>JS&amp;CSS</li>
+      </ol>
+    </nav>
+    <div class="jobs">
+      <div class="big"></div>
+      <div class="small"></div>
+      <div class="small"></div>
+    </div>
+  </section>
 </body>
 </html>

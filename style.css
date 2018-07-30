@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.topNavBar{
+    margin-top: 33px;
+}
+
+.topNavBar .logo {
+    font-family: "Fredoka One";
+    font-size: 30px;
+    padding-top: 1px;
+    margin-left: 185px;
+}
+
+.topNavBar .logo .rs {
+    color: #e6686a;
+    margin-right: 4px;
+}
+
+.topNavBar .card {
+    color: #9A9DA2;
+}
+
+.topNavBar nav{
+    float: right;
+    font-size: 13px;
+    margin-right: 167px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+} 
+
+.topNavBar nav a{
+    float: left;
+    color: rgba(255,255,255,.7);
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+.topNavBar nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.topNavBar nav ul>li{
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+
+.topNavBar nav ul>li>a{
+    border-bottom: 3px solid transparent;
+}
+
+.topNavBar nav ul>li>a:hover{
+    border-bottom: 3px solid red;
+}
