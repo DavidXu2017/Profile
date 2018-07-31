@@ -7,30 +7,42 @@
   <title>Guangyu Xu Personal Website</title>
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Open+Sans" rel="stylesheet">
+  <script src="//at.alicdn.com/t/font_772040_hfwszzk82ig.js"></script>
+  <style type="text/css">
+    .icon {
+       width: 1em; height: 1em;
+       vertical-align: -0.15em;
+       fill: currentColor;
+       overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <div class="topNavBar clearfix">
-    <a href="#" class="logo" alt="logo"><span class="rs">RS</span><span class="card">card</span></a>
-    <nav>
-      <ul class="clearfix">
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">KILLS</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">EXPERIENCE</a></li>
-        <li><a href="#">PRICING</a></li>
-        <li><a href="#">BLOG</a></li>
-        <li><a href="#">CALENDAR</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">OTHER</a></li>
-      </ul>
-    </nav>
+  <div class="topNavBar">
+    <div class="topNavBarInner clearfix">
+      <a href="#" class="logo" alt="logo"><span class="rs" style="font-family: 'Fredoka One';">RS</span><span class="card" style="font-family: 'Fredoka One';">card</span></a>
+      <nav>
+        <ul class="clearfix">
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">KILLS</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">PRICING</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CALENDAR</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">OTHER</a></li>
+        </ul>
+      </nav>
+    </div>
   </div>
-  <div class="banner"></div>
+  <div class="banner"><div class="mask"></div></div>
   <main>
-    <div class="card">
-      <div class="pictureAndText">
+    <div class="userCard">
+      <div class="pictureAndText clearfix">
         <div class="picture">
-          <img src="#" alt="头像">
+          <img src="./image/startuper-1-598x644.jpg" alt="头像" style="width: 296px; height: 318px">
         </div>
         <div class="text">
           <div class="profile">
@@ -42,7 +54,7 @@
               <dt>AGE</dt>
               <dd>32</dd>
               <dt>ADDRESS</dt>
-              <dd>...</dd>
+              <dd>Flulshing NY</dd>
               <dt>E-MAIL</dt>
               <dd>davidxu198556@gmail.com</dd>
               <dt>PHONE</dt>
@@ -52,13 +64,26 @@
         </div>
       </div>
       <footer class="media">
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-linkedin"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-twitter"></use>
+          </svg>
+        </a>
+        <a href="#">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
+        <a href="#">            
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-facebook"></use>
+          </svg>
+        </a>
       </footer>
     </div>
     <a href="#">DOWNLOAD RESUME</a>
