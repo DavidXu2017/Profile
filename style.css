@@ -113,6 +113,8 @@ hr {
     max-width: 940px;
     margin: 0 auto;
     background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px rgba(173,171,173,0.73);
+    margin-top: -340px;
 }
 
 .userCard .picture{
@@ -199,4 +201,50 @@ hr {
     height: 20px; 
     fill: white;
     vertical-align: top;
-  }
+}
+
+/* ------------------Download Resume------------------- */
+
+main .downloadResume {
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .downloadResume a {
+    display: inline-block;
+    padding: 18px 59px;
+    border: 1px solid #DEDEDE;
+    color: #3D4451;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+main .downloadResume a:hover {
+    box-shadow: 0px 10px 20px 0px rgba(173,171,173,1);
+}
+
+main .selfIntroduction {
+    text-align: center;
+    max-width: 940px;
+    margin: 30px auto;
+}
+
+main .selfIntroduction p{
+    font-size: 20px;
+    line-height: 1.8em;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section{
+    max-width: 940px;
+    margin: 50px auto;
+}
+
+section h2{
+    font-size: 34px;
+    text-align: center;
+    margin: 20px;
+    line-height: 1.2em;
+    font-weight: 600;
+}
