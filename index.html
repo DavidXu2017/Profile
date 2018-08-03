@@ -26,7 +26,7 @@
       <nav>
         <ul class="clearfix">
           <li><a href="#">ABOUT</a></li>
-          <li><a href="#">KILLS</a></li>
+          <li><a href="#">SKILLS</a></li>
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">EXPERIENCE</a></li>
           <li><a href="#">PRICING</a></li>
@@ -96,28 +96,67 @@
   </main>
   <section>
     <h2>Professional Skills</h2>
-    <ol>
-      <li>HTML&amp;CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Redux</li>
-      <li>Node</li>
-      <li>Express</li>
+    <ol class="skills clearfix">
+      <li>HTML&amp;CSS
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div>
+      </li>
+      <li>JavaScript
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div></li>
+      <li>React
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div></li>
+      <li>Redux
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div></li>
+      <li>Node
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div></li>
+      <li>Express
+        <div class="progressBar-frame">
+          <div class="progressBar" style="width:70%"></div>
+        </div></li>
     </ol>
   </section>
   <section>
     <h2>Profolio</h2>
-    <nav>
+    <nav class="profolio-nav">
       <ol>
-        <li>All</li>
-        <li>Framework</li>
-        <li>JS&amp;CSS</li>
+        <li id="profolio1">All</li>
+        <li id="profolio2">Framework</li>
+        <li id="profolio3">JS&amp;CSS</li>
       </ol>
+      <div class="profolioBar">
+        <div id="profolioBarInnerBar" class="profolioBar-inner state-1"></div>
+      </div>
+      <script>
+        profolio1.onclick= function(){
+          profolioBarInnerBar.className = "profolioBar-inner state-1";
+        }
+        profolio2.onclick= function(){
+          profolioBarInnerBar.className = "profolioBar-inner state-2";
+        }
+        profolio3.onclick= function(){
+          profolioBarInnerBar.className = "profolioBar-inner state-3";
+        }
+      </script>
     </nav>
-    <div class="jobs">
-      <div class="big"></div>
-      <div class="small"></div>
-      <div class="small"></div>
+    <div class="projects">
+      <div class="big" style="top: 0; left: 0">
+        <img src="./image/Screen Shot 2018-08-03 at 6.57.27 PM.png" alt="big">
+      </div>
+      <div class="small" style="top: 0; right: 0">
+        <img src="./image/Screen Shot 2018-08-03 at 6.57.42 PM.png" alt="small">  
+      </div>
+      <div class="small" style="top: 300px; right: 0">
+        <img src="./image/Screen Shot 2018-08-03 at 6.57.51 PM.png" alt="small">
+      </div>
     </div>
   </section>
 </body>

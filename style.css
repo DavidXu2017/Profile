@@ -18,6 +18,10 @@ hr {
     border-top: 1px solid #DEDEDE;
 }
 
+ol>li{
+    list-style: none;
+}
+
 .clearfix::after {
     content:"";
     display: block;
@@ -236,6 +240,8 @@ main .selfIntroduction p{
     font-family: 'Quicksand', sans-serif;
 }
 
+/* ------------------Professional Skills------------------- */
+
 section{
     max-width: 940px;
     margin: 50px auto;
@@ -248,3 +254,99 @@ section h2{
     line-height: 1.2em;
     font-weight: 600;
 }
+
+section .skills{
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(173,171,173,0.73);
+    box-sizing: border-box;
+    padding: 30px 60px;
+}
+
+section .skills>li{
+    list-style: none;
+    display: inline-block;
+    width: 48%;
+    margin: 20px 0;
+}
+
+section .skills>li:nth-child(even) {
+    float: right;
+}
+
+section .skills .progressBar-frame{
+    background-color: #f7e2e2;
+    height: 5px;
+    border-radius: 2px;
+    margin-top:3px;
+}
+
+section .skills .progressBar-frame .progressBar{
+    background-color: #e8676b;
+    height: 5px;
+    border-radius: 2px;
+}
+
+/* ------------------Profolio------------------- */
+
+section .profolio-nav ol{
+    text-align: center;
+}
+
+section .profolio-nav ol>li{
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+section .profolio-nav .profolioBar{
+    height: 5px;
+    width: 210px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+section .profolio-nav .profolioBar .profolioBar-inner{
+    background-color: #e8676b;
+    border-radius: 2px;
+    height: 5px;
+}
+
+section .profolio-nav .profolioBar .profolioBar-inner.state-1{
+    width: 22px;
+}
+
+section .profolio-nav .profolioBar .profolioBar-inner.state-2{
+    width: 87px;
+    margin-left: 45px;
+}
+
+section .profolio-nav .profolioBar .profolioBar-inner.state-3{
+    width: 60px;
+    margin-left: 150px;
+}
+
+section .profolio-nav ol>li:hover{
+    cursor: pointer;
+}
+
+/* ------------------projects------------------- */
+
+section .projects{
+    position: relative;
+    margin-top: 30px;
+    height: 570px;
+}
+
+section .projects > .big,
+section .projects > .small {
+    position: absolute;
+}
+
+section .projects .big img{
+    width: 580px;
+}
+
+section .projects .small img{
+    width: 279px;
+}
+
